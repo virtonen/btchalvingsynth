@@ -8,7 +8,7 @@ df = pd.read_csv(file_path)
 df.head()
 
 # Rename columns properly and clean the data
-df = pd.read_csv(file_path, skiprows=1)  # Skip the first row which seems to be an extra header
+df = pd.read_csv(file_path, skiprows=1)  # Skip the first row (header)
 
 # Rename columns for clarity
 df.columns = ["Week", "Google Trends Interest"]
