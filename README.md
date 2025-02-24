@@ -1,2 +1,3 @@
-# btchalvingsynth
-Evaluation of the Impact of the Bitcoin Halving on its Long-Term Price Using Synthetic Control
+# Evaluation of the Impact of the Bitcoin Halving on its Price Using Synthetic Control
+
+The third Bitcoin halving that took place in May 2020 cut down the mining reward from 12.5 to 6.25 BTC per block and thus slowed down the pace of issuance of new Bitcoins, making it more scarce. The fourth halving happened in April 2024 and cut the block reward further to 3.125 BTC. If the demand did not decrease simultaneously after these halvings, then the neoclassical economic theory posits that the price of Bitcoin should have increased due to the halving. But did it actually increase for that reason, or is this a post hoc fallacy? This paper uses synthetic control to construct a weighted Bitcoin that is different from its actual counterpart in one aspect – it did not undergo halving. This is the first paper analyzing the effect of halving causally, building on the existing body of correlational research.
